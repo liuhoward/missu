@@ -26,13 +26,13 @@ function go () {
     .type('我想你了', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
-    .wait(10)
+    .wait(30)
     .type('么么哒~o(*≧▽≦)ツ', '<span class="note">', 0)
-    .wait(10)
+    .wait(60)
     .then(() => {
       memeda()
     })
-    .wait(25)
+    .wait(30)
     .then(() => {
       transBoard('show', () => {
         foreverLove()
