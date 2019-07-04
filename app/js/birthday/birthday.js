@@ -14,7 +14,7 @@ function start () {
 }
 function go () {
   let vt = document.getElementById('voice_time')
-  vt.innerHTML = `37″`
+  vt.innerHTML = `23″`
   let hb = document.getElementById('hb')
   let voice = document.getElementById('voice')
   vt.style.display = 'inline-block'
